@@ -1,0 +1,146 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 1.5rem;
+  overflow-x: hidden;
+  scrollbar-color: black;
+}
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  width: 100%;
+  top: 0;
+}
+.leftside {
+  display: flex;
+  align-items: center;
+}
+.hamburger {
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.hamburger .bar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 5px;
+}
+.logo {
+  font-size: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1rem;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+.barner {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.section {
+  display: flex;
+  object-fit: fill;
+  margin-right: auto;
+  justify-content: center;
+}
+.images {
+  margin-right: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+  width: 500px;
+  height: 700px;
+}
+
+.logo {
+  margin-right: auto;
+}
+ul {
+  align-items: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.instagram {
+  display: flex;
+  justify-content: end;
+  margin-right: 22%;
+  gap: 1rem;
+}
+a {
+  color: black;
+}
+.allwork {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.search-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background: white;
+  position: relative;
+}
+.container .icon {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  transform: translate(-50%, -50%);
+}
+.container .icon .search {
+  font-size: 21px;
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 425px) {
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu {
+    display: none;
+  }
+  .search-container {
+    display: none;
+  }
+  .images {
+    margin-top: 1rem;
+  }
+}
